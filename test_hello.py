@@ -5,4 +5,4 @@ def test_hello():
 
 def test_argument():
     for name in ["Hermione", "Harry", "Ron"]:
-     assert hello(name) == f"hello,{name}"
+     assert hello(name) == f"hello, {name}"
